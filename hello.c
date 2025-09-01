@@ -2,6 +2,8 @@
 
 int main()
 {
-	print("hello git\n");
-	return 0
+	printf("hello Git");
+	printf("hello Intel");
+	printf("feature active");
+	return 0;
 }
