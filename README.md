@@ -1,4 +1,5 @@
-🚦 Pedestrian Behavior Classification (Intel Geti 기반)
+**🚦 Pedestrian Behavior Classification (Intel Geti 기반)**
+
 📌 개요
 
 Intel Geti 플랫폼을 활용하여 횡단보도 보행자의 걷기/달리기 행동을 인식하는 AI 모델을 개발.
@@ -11,6 +12,7 @@ Intel 7기 AI mini project 발표_이호빈
 목적: 보행자의 안전을 높이고 교통 신호 체계에 적용 가능한 인공지능 학습
 
 방법: 영상/이미지 데이터를 기반으로 행동 Classification 모델 학습 → 보행자의 행동을 자동 구분
+
 
 📂 Dataset
 
@@ -28,7 +30,7 @@ Running (달리기)
 
 화질 저하 및 불균형 데이터셋에서 정확도 감소
 
-Intel 7기 AI mini project 발표_이호빈
+
 
 🧠 모델
 
@@ -44,16 +46,7 @@ Custom Model: Intel Geti 훈련 환경에서 학습
 
 인사이트: AI 성능은 알고리즘 자체보다 데이터 품질과 다양성에 크게 의존
 
-Intel 7기 AI mini project 발표_이호빈
 
-⚙️ 설치 및 실행
-1. 환경 설정
-# 의존성 설치
-pip install -r requirements.txt
-
-2. 실행 예시
-# Classification 실행
-python3 run_behavior_classification.py --model best.engine --input sample_video.mp4
 
 📊 결과
 
@@ -61,7 +54,6 @@ python3 run_behavior_classification.py --model best.engine --input sample_video.
 
 테스트 결과: 걷기 vs 달리기 대부분 잘 분류하나, 경계 상황(빠른 걷기, 느린 달리기)에서 혼동 발생
 
-Intel 7기 AI mini project 발표_이호빈
 
 🔍 아쉬운 점 & 개선 방향
 
@@ -70,5 +62,3 @@ Intel 7기 AI mini project 발표_이호빈
 영상 화질이 낮거나 과도하게 많은 데이터가 혼재 시 성능 저하 발생
 
 실제 교통 신호 제어 연계 시 실시간성·안정성 확보 필요
-
-Intel 7기 AI mini project 발표_이호빈
