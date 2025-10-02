@@ -22,6 +22,7 @@ Intel Geti 플랫폼을 활용하여 **횡단보도 보행자의 걷기/달리�
 |--------|------|
 | **빠른 걷기 vs 느린 달리기** | 경계가 모호해 라벨링 기준 차이 발생 |
 | **데이터 품질 문제** | 화질 저하 및 불균형 데이터셋에서 정확도 감소 |
+<img width="1148" height="647" alt="image" src="https://github.com/user-attachments/assets/2022ff3f-217f-49fa-a0aa-dac7ffd78458" />
 
 ---
 
@@ -34,6 +35,7 @@ Intel Geti 플랫폼을 활용하여 **횡단보도 보행자의 걷기/달리�
 | **정확도** | 단순 환경에서는 90% 이상 |
 | **한계** | 데이터 다양성 부족 시 성능 저하 |
 | **인사이트** | 모델 성능은 **데이터 품질과 다양성**에 크게 의존 |
+<img width="1148" height="647" alt="image" src="https://github.com/user-attachments/assets/fc7e17ac-e732-4653-a574-55f769c7493b" />
 
 ---
 
@@ -53,5 +55,6 @@ Intel Geti 플랫폼을 활용하여 **횡단보도 보행자의 걷기/달리�
 | **행동 다양성**     | 멈춤, 자전거, 휴대폰 사용 등 확장 필요 |
 | **성능 저하 요인**   | 저화질 영상·불균형 데이터셋         |
 | **실제 적용 시 고려** | 실시간성 및 안정성 확보 필요        |
+<img width="1148" height="644" alt="image" src="https://github.com/user-attachments/assets/cec8b288-3269-4229-90f7-7b28e1a0a32d" />
 
 ---
