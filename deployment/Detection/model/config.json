@@ -1,0 +1,8 @@
+{
+    "task_type": "detection",
+    "model_type": "ssd",
+    "model_parameters": {
+        "labels": "person_run person_walk traffic_led_light traffic_green_light car crosswalk",
+        "labels_ids": "68ad2e23115dfb3a6fe2bab1 68ad2e23115dfb3a6fe2bab2 68ad2e23115dfb3a6fe2bab3 68ad2e23115dfb3a6fe2bab4 68ad2e23115dfb3a6fe2bab5 68ad2e23115dfb3a6fe2bab6"
+    }
+}

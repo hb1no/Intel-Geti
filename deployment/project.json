@@ -1,0 +1,121 @@
+{
+   "id": "68ad2e23115dfb3a6fe2baac",
+   "name": "Analysis of pedestrian behavior on crosswalks",
+   "creation_time": "2025-08-26T03:46:43.237000+00:00",
+   "creator_id": "24909db2-70e5-4aa2-9cbd-48fa94c45d46",
+   "pipeline": {
+      "tasks": [
+         {
+            "id": "68ad2e23115dfb3a6fe2baad",
+            "title": "Dataset",
+            "task_type": "dataset"
+         },
+         {
+            "id": "68ad2e23115dfb3a6fe2baaf",
+            "title": "Detection",
+            "task_type": "detection",
+            "labels": [
+               {
+                  "id": "68ad2e23115dfb3a6fe2bab1",
+                  "name": "person_run",
+                  "is_anomalous": false,
+                  "color": "#00f5d4ff",
+                  "hotkey": "1",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68ad2e23115dfb3a6fe2bab2",
+                  "name": "person_walk",
+                  "is_anomalous": false,
+                  "color": "#5b69ffff",
+                  "hotkey": "2",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68ad2e23115dfb3a6fe2bab3",
+                  "name": "traffic_led light",
+                  "is_anomalous": false,
+                  "color": "#80e9afff",
+                  "hotkey": "3",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68ad2e23115dfb3a6fe2bab4",
+                  "name": "traffic_green light",
+                  "is_anomalous": false,
+                  "color": "#d7bc5eff",
+                  "hotkey": "4",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68ad2e23115dfb3a6fe2bab5",
+                  "name": "car",
+                  "is_anomalous": false,
+                  "color": "#e96115ff",
+                  "hotkey": "5",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68ad2e23115dfb3a6fe2bab6",
+                  "name": "crosswalk",
+                  "is_anomalous": false,
+                  "color": "#ff7d00ff",
+                  "hotkey": "6",
+                  "is_empty": false,
+                  "group": "Detection labels",
+                  "parent_id": null
+               },
+               {
+                  "id": "68ad2e23115dfb3a6fe2baba",
+                  "name": "No object",
+                  "is_anomalous": false,
+                  "color": "#000000ff",
+                  "hotkey": "",
+                  "is_empty": true,
+                  "group": "No object",
+                  "parent_id": null
+               }
+            ],
+            "label_schema_id": "68ad2e23115dfb3a6fe2babc"
+         }
+      ],
+      "connections": [
+         {
+            "from": "68ad2e23115dfb3a6fe2baad",
+            "to": "68ad2e23115dfb3a6fe2baaf"
+         }
+      ]
+   },
+   "thumbnail": "/api/v1/organizations/55c78a65-1c48-4bd0-a153-dff3c4d4b7b5/workspaces/21e2b7de-3368-412e-af9f-69ddd34c3b88/projects/68ad2e23115dfb3a6fe2baac/thumbnail",
+   "performance": {
+      "score": 0.6595744680851062,
+      "task_performances": [
+         {
+            "task_id": "68ad2e23115dfb3a6fe2baaf",
+            "score": {
+               "value": 0.6595744680851062,
+               "metric_type": "F-Measure"
+            }
+         }
+      ]
+   },
+   "storage_info": {},
+   "datasets": [
+      {
+         "id": "68ad2e23115dfb3a6fe2bab7",
+         "name": "Dataset",
+         "use_for_training": true,
+         "creation_time": "2025-08-26T03:46:43.235000+00:00"
+      }
+   ]
+}
